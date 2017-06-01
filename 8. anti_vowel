@@ -1,0 +1,12 @@
+def anti_vowel(text):
+    result=""
+    for i in range(0,len(text)):
+        print text[i]
+        if text[i] in "aeiouAEIOU":
+            i+=1
+        else:
+            result=result+text[i]
+            i+=1
+    print result
+    return result
+anti_vowel("zeffez123")
